@@ -1,3 +1,6 @@
 [submodule "externals/pathogen"]
 	path = externals/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule "externals/gist-vim"]
+	path = externals/gist-vim
+	url = git://github.com/mattn/gist-vim.git
