@@ -158,3 +158,8 @@ autocmd BufReadPost *
 "         autocmd BufRead *.ros set filetype=php
 "     augroup END
 " endif
+
+" Read local file for custom configs
+if filereadable(expand("~/.vim_local"))
+    source ~/.vim_local
+endif
