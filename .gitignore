@@ -1,1 +1,2 @@
 .DS_Store
+.netrwhist # ignore Netrw (over network file editing history)
