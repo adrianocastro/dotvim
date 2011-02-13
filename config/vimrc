@@ -6,6 +6,7 @@
 source ~/.vim/config/global.vim
 source ~/.vim/config/bindings.vim
 source ~/.vim/config/visual.vim
+source ~/.vim/config/abbreviations.vim
 
 " Read local file for custom configs
 if filereadable(expand("~/.vim_local"))
