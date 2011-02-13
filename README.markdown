@@ -32,3 +32,10 @@ This is a complete vim configuration. It uses [Pathogen](https://github.com/tpop
 # Customisation
 
 For local customisations can be added to `~/.vimrc.local` and `~/.gvimrc.local`.
+
+# TODO
+- Finish tidying up .vimrc
+- Fix listchars invalid args
+- Figure out tabs on vim
+- Assure compatibility between vim and MacVim
+- Start working on Pathogen and plugins
