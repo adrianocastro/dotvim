@@ -10,3 +10,6 @@
 [submodule "externals/colorschemes/mac-classic"]
 	path = externals/colorschemes/mac-classic
 	url = git://github.com/nelstrom/vim-mac-classic-theme.git
+[submodule "externals/syntax"]
+	path = externals/syntax
+	url = git://github.com/plasticboy/vim-markdown.git
