@@ -8,6 +8,10 @@ This is a complete vim configuration. It uses [Pathogen](https://github.com/tpop
 # Included plugins
 - [Pathogen](https://github.com/tpope/vim-pathogen) - for plugin management
 
+# Included colorschemes
+- [Molokai](https://github.com/tomasr/molokai) - for dark backgrounds
+- [Mac Classic](https://github.com/nelstrom/vim-mac-classic-theme) - for light backgrounds
+
 # Installation:
 
 0. Backup your existing .vim folder and rc files:
