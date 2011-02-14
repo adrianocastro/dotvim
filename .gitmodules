@@ -16,3 +16,6 @@
 [submodule "externals/colorschemes/xoria256"]
 	path = externals/colorschemes/xoria256
 	url = git://github.com/vim-scripts/xoria256.vim.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git

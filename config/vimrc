@@ -1,7 +1,7 @@
 " Start Pathogen
 "filetype off 
-"call pathogen#runtime_append_all_bundles()
-"call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 source ~/.vim/config/global.vim
 source ~/.vim/config/bindings.vim
