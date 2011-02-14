@@ -9,4 +9,4 @@
 	url = git://github.com/tomasr/molokai.git
 [submodule "externals/colorschemes/mac-classic"]
 	path = externals/colorschemes/mac-classic
-	url = https://github.com/nelstrom/vim-mac-classic-theme.git
+	url = git://github.com/nelstrom/vim-mac-classic-theme.git

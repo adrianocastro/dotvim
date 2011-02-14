@@ -1,0 +1,1 @@
+../externals/colorschemes/molokai/colors/molokai.vim
