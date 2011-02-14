@@ -1,12 +1,26 @@
 " Start Pathogen
 "filetype off 
-"call pathogen#helptags()
 "call pathogen#runtime_append_all_bundles()
+"call pathogen#helptags()
 
 source ~/.vim/config/global.vim
 source ~/.vim/config/bindings.vim
 source ~/.vim/config/visual.vim
 source ~/.vim/config/abbreviations.vim
+
+" Show syntax highlighting groups for word under cursor (control+shift+p)
+nmap <C-S-P> :call <SID>SynStack()<CR>
+function! <SID>SynStack()
+    if !exists("*synstack")
+        return
+    endif
+    echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc
+
+" Source the vimrc file after saving it
+if has("autocmd")
+    autocmd bufwritepost .vimrc source $MYVIMRC
+endif
 
 " Read local file for custom configs
 if filereadable(expand("~/.vim_local"))
