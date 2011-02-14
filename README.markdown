@@ -3,7 +3,7 @@ This is a complete vim configuration. It uses [Pathogen](https://github.com/tpop
 # Default settings:
 - `<Leader>` maps to `,`
 - Line numbers are on
-- Soft 4 spaces tabs
+- Soft tabs using 4 spaces
 
 # Included plugins
 - [Pathogen](https://github.com/tpope/vim-pathogen) - for plugin management
@@ -38,8 +38,13 @@ This is a complete vim configuration. It uses [Pathogen](https://github.com/tpop
 For local customisations can be added to `~/.vimrc.local` and `~/.gvimrc.local`.
 
 # TODO
-- Finish tidying up .vimrc
-- Fix listchars invalid args
-- Figure out tabs on vim
 - Assure compatibility between vim and MacVim
+- Figure out tabs on vim
 - Start working on Pathogen and plugins
+- Finish tidying up .vimrc @done(2011.02.14)
+- Fix listchars invalid args @done(2011.02.14)
+- Add syntax for:
+   - HTML @done(2011.02.14)
+   - JS @done(2011.02.14)
+   - PHP @done(2011.02.14)
+   - Markdown @done(2011.02.14)
