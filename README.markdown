@@ -39,8 +39,7 @@ For local customisations can be added to `~/.vimrc.local` and `~/.gvimrc.local`.
 
 # TODO
 - Assure compatibility between vim and MacVim
-- Figure out if there's a better way of doing filetype recognition than using
-  filetype.vim
+- Figure out if there's a better way of doing filetype recognition than using filetype.vim
 - Figure out tabs on vim
 - Start working on Pathogen and plugins
 - Finish tidying up .vimrc @done(2011.02.14)
