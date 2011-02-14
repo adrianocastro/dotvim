@@ -13,3 +13,6 @@
 [submodule "externals/syntax/markdown"]
 	path = externals/syntax/markdown
 	url = git://github.com/plasticboy/vim-markdown.git
+[submodule "externals/colorschemes/xoria256"]
+	path = externals/colorschemes/xoria256
+	url = git://github.com/vim-scripts/xoria256.vim.git
