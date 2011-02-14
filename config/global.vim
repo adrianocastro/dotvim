@@ -1,11 +1,13 @@
 set nocompatible       " don't be backwards compatible with vi
 set encoding=utf-8
 
+set title              " set window title to the name of the file being edited
 set history=50         " keep 50 lines of command line history
 set viminfo='20,\"50   " read/write a .viminfo file (50 lines max)
 set modelines=0        " prevent modelines security exploit by disabling it
 set ttyfast            " indicates a fast terminal connection
-set visualbell         " use visual bell instead of aural
+set visualbell         " use visual bell instead of beeping
+" set vb t_vb=         " don't beep or flash
 
 
 " BACKUPS
