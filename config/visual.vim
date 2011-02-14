@@ -5,10 +5,10 @@ set number
 set ruler
 
 " Show tabs, eol and trailing chars
-set listchars+=tab:▸\ ,
-set listchars+=eol:¬
-set listchars+=trail:·
-" set listchars=tab:»·,trail:·,precedes:<,extends:>
+"set listchars+=tab:▸\ ,
+"set listchars+=eol:¬
+"set listchars+=trail:·
+set listchars=tab:»·,trail:·,precedes:<,extends:>
 " Show invisibles
 set list
 
