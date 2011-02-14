@@ -1,4 +1,5 @@
 " {{{ Abbreviations
+abbreviate hlep help
 abbreviate methos method
 abbreviate vra var
 abbreviate ehco echo
