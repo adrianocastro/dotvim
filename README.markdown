@@ -37,15 +37,3 @@ This is a complete vim configuration. It uses [Pathogen](https://github.com/tpop
 
 For local customisations can be added to `~/.vimrc.local` and `~/.gvimrc.local`.
 
-# TODO
-- Assure compatibility between vim and MacVim
-- Figure out if there's a better way of doing filetype recognition than using filetype.vim
-- Figure out tabs on vim
-- Start working on Pathogen and plugins
-- Finish tidying up .vimrc @done(2011.02.14)
-- Fix listchars invalid args @done(2011.02.14)
-- Add syntax for:
-   - HTML @done(2011.02.14)
-   - JS @done(2011.02.14)
-   - PHP @done(2011.02.14)
-   - Markdown @done(2011.02.14)
