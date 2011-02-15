@@ -1,11 +1,16 @@
 " Map <leader> to ,
 let mapleader = ","
 
+" Toggle NERDtree: <leader>n
+nmap <leader>n :NERDTreeToggle<CR>
+nmap <leader>N :NERDTreeFind<CR>
+nmap <leader>m :NERDTreeMirror<CR>
+
 " Toggle invisibles: <leader>l
 nmap <leader>l :set list!<CR>
 
 " Clear searches: <leader><space>
-nmap <leader><space> :noh<cr>
+nmap <leader><space> :noh<CR>
 
 " Fix indentation
 nmap _= :call Preserve("normal gg=G")<CR>
@@ -13,7 +18,7 @@ nmap _= :call Preserve("normal gg=G")<CR>
 " Strip all trailing whitespace: <leader>w
 nmap <silent> <leader>w :call Preserve("%s/\\s\\+$//e")<CR>
 " Delete all empty lines: <leader>W
-nmap <leader>W :call Preserve("g/^$/d")<cr>
+nmap <leader>W :call Preserve("g/^$/d")<CR>
 
 " Use a function instead of a simple search and replace so we can save previous searches and cursor position
 function! Preserve(command)
