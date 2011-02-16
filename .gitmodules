@@ -19,3 +19,9 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle/taskpaper"]
+	path = bundle/taskpaper
+	url = git@github.com:adrianocastro/taskpaper.vim.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://github.com/wincent/Command-T.git
