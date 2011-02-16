@@ -1,6 +1,9 @@
 " Map <leader> to ,
 let mapleader = ","
 
+" Updated working directory to current file's path
+nmap <leader>c :cd %:p:h<CR>
+
 " Toggle NERDtree: <leader>n
 nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>N :NERDTreeFind<CR>
@@ -8,7 +11,6 @@ nmap <leader>m :NERDTreeMirror<CR>
 
 " Toggle invisibles: <leader>l
 nmap <leader>l :set list!<CR>
-
 " Clear searches: <leader><space>
 nmap <leader><space> :noh<CR>
 
@@ -33,6 +35,11 @@ function! Preserve(command)
     call cursor(l, c)
 endfunction
 
+nmap <CR> o<Esc>       " in normal mode return inserts a new line below
+nmap <S-Enter> O<Esc>  " in normal mode shift-return inserts a new line above
+nmap <BS> kJ<Esc>      " in normal mode backspace joins line with previous line
+nmap <S-BS> J<Esc>     " in normal mode shift+backspace joins the next line
+
 " http://www.vim.org/tips/tip.php?tip_id=550
 map ^[OA k
 map ^[OB j
@@ -49,6 +56,11 @@ nmap k gk
 nmap <Up> gk
 nmap j gj
 nmap <Down> gj
+
+" Mimic bash cursor movements in the command line
+" Ctrl+a to move cursor to beginning of command-line
+cmap <C-A> <Home>
+cmap <C-D> <C-H>
 
 " map alt+arrow keys
 " these aren't working
