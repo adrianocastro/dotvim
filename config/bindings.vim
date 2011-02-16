@@ -11,6 +11,8 @@ nmap <leader>m :NERDTreeMirror<CR>
 
 " Toggle invisibles: <leader>l
 nmap <leader>l :set list!<CR>
+" Toggle gutter (line numbers)
+nmap <leader>g :set nu!<CR>
 " Clear searches: <leader><space>
 nmap <leader><space> :noh<CR>
 
