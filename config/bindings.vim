@@ -1,6 +1,11 @@
 " Map <leader> to ,
 let mapleader = ","
 
+nmap <leader>t :CommandT<CR>
+
+" sudo save
+nmap <leader>o :w !sudo tee %
+
 " Updated working directory to current file's path
 nmap <leader>c :cd %:p:h<CR>
 
@@ -37,10 +42,12 @@ function! Preserve(command)
     call cursor(l, c)
 endfunction
 
-nmap <CR> o<Esc>       " in normal mode return inserts a new line below
-nmap <S-Enter> O<Esc>  " in normal mode shift-return inserts a new line above
-nmap <BS> kJ<Esc>      " in normal mode backspace joins line with previous line
-nmap <S-BS> J<Esc>     " in normal mode shift+backspace joins the next line
+" in normal mode return inserts a new line below
+nmap <CR> o<Esc>
+" in normal mode shift-return inserts a new line above
+nmap <S-Enter> O<Esc>
+" nmap <BS> kJ<Esc>      " in normal mode backspace joins line with previous line
+" nmap <S-BS> J<Esc>     " in normal mode shift+backspace joins the next line
 
 " http://www.vim.org/tips/tip.php?tip_id=550
 map ^[OA k
