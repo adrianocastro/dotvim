@@ -3,7 +3,6 @@ set cursorline   " highlight current line
 set laststatus=2 " always show the status bar
 set number
 set ruler
-set textwidth=78
 
 " Show tabs, eol and trailing chars
 set listchars=tab:▸\ ,trail:·,precedes:<,extends:>,eol:¬
