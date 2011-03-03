@@ -1,5 +1,8 @@
 This is a complete vim configuration. It uses [Pathogen](https://github.com/tpope/vim-pathogen) to organise a number of different plugins inside the bundles directory. Most of those bundles are included as git submodules from other github repositories.
 
+# Requirements
+- [vim 7.3](http://www.vim.org/download.php)
+
 # Default settings:
 - `<Leader>` maps to `,`
 - Line numbers are on
