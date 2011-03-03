@@ -7,6 +7,7 @@ set viminfo='20,\"50   " read/write a .viminfo file (50 lines max)
 set modelines=0        " prevent modelines security exploit by disabling it
 set ttyfast            " indicates a fast terminal connection
 set visualbell         " use visual bell instead of beeping
+set showcmd            " show commands as you type them
 " set vb t_vb=         " don't beep or flash
 
 
