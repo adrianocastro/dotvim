@@ -35,3 +35,7 @@ if has("autocmd")
     " Treat .rss files as XML
     autocmd BufNewFile,BufRead *.rss setfiletype xml
 endif
+
+" status line with: absolute pat, filetype, help, preview, readonly, current
+" line and line count, cols and percentage
+set statusline=%<%F\ %y%h%w%r%m%=%-14.(%l\/%L,%c%V%)\ %P
