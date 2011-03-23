@@ -1,16 +1,29 @@
 TODO:
-- Assure compatibility between vim and MacVim
-- Figure out if there's a better way of doing filetype recognition than using filetype.vim
-- Figure out tabs on vim
-- Configure wanted functionality
-	- find in project
-	- project drawer
-	- go to symbol
-- Start working on Pathogen and plugins @done(2011.02.19)
-- Finish tidying up .vimrc @done(2011.02.14)
-- Fix listchars invalid args @done(2011.02.14)
-- Add syntax for: @done(2011-02-14)
-	- HTML @done(2011.02.14)
-	- JS @done(2011.02.14)
-	- PHP @done(2011.02.14)
-- Markdown @done(2011.02.14)
+	http://stevelosh.com/blog/2010/09/coming-home-to-vim/
+
+	- Wanted functionality: go to symbol
+	- Figure out tabs in vim
+	- markdown preview
+	- investigate scripts
+		http://www.vim.org/scripts/index.php
+		http://www.linux.com/archive/feature/62139
+		http://www.vim.org/scripts/script.php?script_id=1172
+		http://www.vim.org/scripts/script.php?script_id=1311
+		http://www.vim.org/scripts/script.php?script_id=988
+	- Assure compatibility between vim and MacVim
+	- Figure out if there's a better way of doing filetype recognition than using filetype.vim
+
+DONE:
+	- Start working on Pathogen and plugins @done(2011.02.19)
+	- Finish tidying up .vimrc @done(2011.02.14)
+	- Fix listchars invalid args @done(2011.02.14)
+	- Add syntax for: @done(2011-02-14)
+		- HTML @done(2011.02.14)
+		- JS @done(2011.02.14)
+		- PHP @done(2011.02.14)
+	- Markdown @done(2011.02.14)
+	- create vim HTML templates @done(2011-03-22)
+		http://vim.runpaint.org/typing/using-templates/
+	- markdown syntax @done(2011-03-22)
+	- Wanted functionality: find in project @done(2011-03-22)
+	- Wanted functionality: project drawer @done(2011-03-22)
