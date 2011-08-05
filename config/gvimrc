@@ -1,11 +1,11 @@
 set guioptions-=T "disable menu bar
 
 " Default to light background
-set background=light
+" set background=light
 " Silver for light background
-if &background == 'light'
-    hi normal guibg=white
-endif
+" if &background == 'light'
+"     hi normal guibg=white
+" endif
 " Black for dark background
 " if &background == "dark"¬
 "     hi normal guibg=black¬
@@ -13,4 +13,6 @@ endif
 
 set guifont=Monaco:h11
 
-colorscheme mac_classic
+" colorscheme mac_classic
+" colorscheme solarized
+colorscheme molokai

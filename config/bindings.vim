@@ -3,6 +3,9 @@ let mapleader = ","
 
 nmap <leader>t :CommandT<CR>
 
+nmap <leader>p :! php -l %
+nmap <leader>j :! node %
+
 " sudo save
 nmap <leader>o :w !sudo tee %
 
