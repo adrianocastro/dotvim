@@ -2,3 +2,4 @@
 # ignore Netrw (over network file editing history)
 .netrwhist
 tmp/
+doc/tags
