@@ -7,6 +7,6 @@ endif
 augroup markdown
  au! BufRead,BufNewFile *.markdown,*.md,*.mkd  setfiletype mkd
 augroup END
-augroup html
- au! BufRead,BufNewFile *.ros setfiletype html
+augroup php
+ au! BufRead,BufNewFile *.ros setfiletype php.html
 augroup END
