@@ -7,6 +7,7 @@ This is a complete vim configuration. It uses [Pathogen](https://github.com/tpop
 - `<Leader>` maps to `,`
 - Line numbers are on
 - Soft tabs using 4 spaces
+- Solarized colorscheme
 
 # Included plugins
 - [Pathogen](https://github.com/tpope/vim-pathogen) - for plugin management (in the autoload directory)
@@ -20,9 +21,9 @@ This is a complete vim configuration. It uses [Pathogen](https://github.com/tpop
 - and others, please refer to the bundle directory
 
 # Included colorschemes
+- [Solarized](https://github.com/altercation/vim-colors-solarized) - preferred colorscheme, works well with light *and* dark backgrounds. Included as a Pathogen managed plugin.
 - [Molokai](https://github.com/tomasr/molokai) - for dark backgrounds
 - [Mac Classic](https://github.com/nelstrom/vim-mac-classic-theme) - for light backgrounds
-- [Solarized](https://github.com/altercation/vim-colors-solarized)
 - and others, please refer to the colors directory
 
 # Installation:
@@ -48,5 +49,4 @@ This is a complete vim configuration. It uses [Pathogen](https://github.com/tpop
 
 # Customisation
 
-Local customisations can be added to `~].vimrc.local` and `~/.gvimrc.local`.
-
+Local customisations can be added to `~/.vimrc.local` and `~/.gvimrc.local`.
