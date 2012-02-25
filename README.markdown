@@ -32,20 +32,14 @@ This is a complete vim configuration. It uses [Pathogen](https://github.com/tpop
 
     `for i in ~/.vim ~/.vimrc ~/.gvimrc; do [ -e $i ] && mv $i $i.old; done`
 
-1. Grab a copy of the repository and install under `~/.vim` 
+1. Grab a copy of the repository and its submodules and install under `~/.vim` 
 
-    `git clone git://github.com/adrianocastro/dotvim.git ~/.vim`
+    `git clone --recursive git://github.com/adrianocastro/dotvim.git ~/.vim`
 
 ## Create symlinks:
 
     ln -s ~/.vim/config/vimrc ~/.vimrc
     ln -s ~/.vim/config/gvimrc ~/.gvimrc
-
-## Fetch submodules:
-
-    cd ~/.vim
-    git submodule init
-    git submodule update
 
 # Customisation
 
