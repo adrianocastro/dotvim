@@ -1,8 +1,6 @@
+http://stevelosh.com/blog/2010/09/coming-home-to-vim/
 TODO:
-	http://stevelosh.com/blog/2010/09/coming-home-to-vim/
-
 	- Wanted functionality: go to symbol
-	- Figure out tabs in vim
 	- markdown preview
 	- investigate scripts
 		http://www.vim.org/scripts/index.php
@@ -10,10 +8,11 @@ TODO:
 		http://www.vim.org/scripts/script.php?script_id=1172
 		http://www.vim.org/scripts/script.php?script_id=1311
 		http://www.vim.org/scripts/script.php?script_id=988
-	- Assure compatibility between vim and MacVim
 	- Figure out if there's a better way of doing filetype recognition than using filetype.vim
 
 DONE:
+	- Assure compatibility between vim and MacVim @done(2012-02-24)
+	- Figure out tabs in vim @cancelled(2012-02-24)
 	- Start working on Pathogen and plugins @done(2011.02.19)
 	- Finish tidying up .vimrc @done(2011.02.14)
 	- Fix listchars invalid args @done(2011.02.14)
