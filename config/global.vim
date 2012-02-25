@@ -12,9 +12,9 @@ set showcmd            " show commands as you type them
 
 
 " BACKUPS
-set backup                        " enable backups
-set backupdir=~/.vim/tmp/backup/  " backups
-set directory=~/.vim/tmp/swap/    " swap files
+"set backup                        " enable backups
+"set backupdir=~/.vim/tmp/backup/  " backups
+"set directory=~/.vim/tmp/swap/    " swap files
 
 
 " COMMAND
@@ -68,4 +68,9 @@ if has("autocmd")
     \ if line("'\"") > 0 && line ("'\"") <= line("$") |
     \   exe "normal g'\"" |
     \ endif
+endif
+
+if $VIM_CRONTAB == "true"
+    set nobackup
+    set nowritebackup
 endif
