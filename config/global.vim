@@ -9,6 +9,7 @@ set ttyfast            " indicates a fast terminal connection
 set visualbell         " use visual bell instead of beeping
 set showcmd            " show commands as you type them
 " set vb t_vb=         " don't beep or flash
+set hidden             " allow switching to unwritten buffers
 
 
 " BACKUPS
@@ -20,8 +21,8 @@ set showcmd            " show commands as you type them
 " COMMAND
 " Ignore these files when completing names and in Explorer
 set wildignore=.svn,CVS,.git,.DS_Store,*.swp
-"set wildmenu " show menu with possible completions
-"set wildmode=list:longest
+set wildmenu " show menu with possible completions
+set wildmode=list:longest
 
 
 " DISPLAY
