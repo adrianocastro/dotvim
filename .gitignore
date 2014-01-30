@@ -3,3 +3,4 @@
 .netrwhist
 tmp/
 doc/tags
+*.swp
