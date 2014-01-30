@@ -7,12 +7,13 @@ set ruler
 " Show tabs, eol and trailing chars
 set listchars=tab:▸\ ,trail:·,precedes:<,extends:>,eol:¬
 " Show invisibles
-" set list
+"set list
 
 syntax on    " enable syntax highlighting
 " disable syntax highlighting if in diff mode
 if &diff
     syntax off
+    set diffopt+=iwhite,filler
 endif
 
 " Load indent files, to automatically do language-dependent indenting
