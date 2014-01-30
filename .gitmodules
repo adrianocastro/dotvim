@@ -22,22 +22,22 @@
 [submodule "bundle/taskpaper"]
 	path = bundle/taskpaper
 	url = git://github.com/davidoc/taskpaper.vim.git
-    ignore = untracked
+	ignore = untracked
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = git://github.com/wincent/Command-T.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git@github.com:adrianocastro/snipmate.vim.git
-    ignore = untracked
+	ignore = untracked
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = git://github.com/tpope/vim-surround.git
-    ignore = untracked
+	ignore = untracked
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = git://github.com/sjl/gundo.vim.git
-    ignore = untracked
+	ignore = untracked
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
@@ -53,3 +53,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
+[submodule "bundle/editorconfig"]
+	path = bundle/editorconfig
+	url = git@github.com:editorconfig/editorconfig-vim.git
