@@ -3,6 +3,8 @@ let mapleader = ","
 
 nmap <leader>t :CommandT<CR>
 
+nmap <leader>f :FuzzyFinderTextMate<CR>
+
 nmap <leader>p :! php -l %
 nmap <leader>j :! node %
 
